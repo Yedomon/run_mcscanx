@@ -103,6 +103,9 @@ This command generates the **collinearity file**, which provides insights into s
 
 ---
 
+
+## Act 5: Visualise your synteny plot at https://synvisio.github.io/#/upload by uploading the MCScanX Collinearity and gff files.
+
 ## **Conclusion**
 This pipeline allows efficient genome synteny analysis using **DIAMOND** for protein comparisons instead of traditional BLAST, speeding up processing while maintaining accuracy. The results from **MCScanX** can be used to identify gene duplications, syntenic blocks, and evolutionary relationships between *Arabidopsis* and *Perilla* (or any other species pairs).
 
