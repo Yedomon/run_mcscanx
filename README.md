@@ -4,12 +4,22 @@
 
 by Ange Zoclanclounon X:@angeomics
 
+
+## Toy data to play with available [here]()
+
 ## **Overview**
 This tutorial demonstrates how to use **DIAMOND** instead of BLAST for protein sequence comparisons and then analyze synteny using **MCScanX**. The example uses two species: *Arabidopsis thaliana* (at) and *Perilla frutescens* (pc), but the pipeline can be extended to other species.
 
 ## **Act 1: Install MCScanX**
 A great tutorial on installing MCScanX is available [here](https://www.youtube.com/watch?v=KMlj8CGnB2c).
+It is quite simple. Do
 
+
+```
+git clone https://github.com/wyp1125/MCScanX.git
+cd MCScanX
+make
+```
 ---
 
 ## **Act 2: Conducting a BLAST Search Using DIAMOND**
